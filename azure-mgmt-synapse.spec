@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-synapse
 Version  : 0.5.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/55/cb/ccd7fa24e714a5dbaef963bebacf65e2f46f38167041641f971fe170ffd5/azure-mgmt-synapse-0.5.0.zip
 Source0  : https://files.pythonhosted.org/packages/55/cb/ccd7fa24e714a5dbaef963bebacf65e2f46f38167041641f971fe170ffd5/azure-mgmt-synapse-0.5.0.zip
 Summary  : Microsoft Azure Synapse Management Client Library for Python
