@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-synapse
 Version  : 0.5.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/55/cb/ccd7fa24e714a5dbaef963bebacf65e2f46f38167041641f971fe170ffd5/azure-mgmt-synapse-0.5.0.zip
 Source0  : https://files.pythonhosted.org/packages/55/cb/ccd7fa24e714a5dbaef963bebacf65e2f46f38167041641f971fe170ffd5/azure-mgmt-synapse-0.5.0.zip
 Summary  : Microsoft Azure Synapse Management Client Library for Python
@@ -12,11 +12,11 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-mgmt-synapse-python = %{version}-%{release}
 Requires: azure-mgmt-synapse-python3 = %{version}-%{release}
-Requires: azure-common~
+Requires: azure-common
 Requires: azure-mgmt-nspkg
 Requires: msrest
 Requires: msrestazure
-BuildRequires : azure-common~
+BuildRequires : azure-common
 BuildRequires : azure-mgmt-nspkg
 BuildRequires : buildreq-distutils3
 BuildRequires : msrest
@@ -57,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607992371
+export SOURCE_DATE_EPOCH=1608002463
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
